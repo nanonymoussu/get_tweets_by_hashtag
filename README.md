@@ -39,14 +39,14 @@ Before running the script, ensure you have the following:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/twitter-hashtag-scraper.git
-   cd twitter-hashtag-scraper
+   git clone https://github.com/nanonymoussu/get_tweets_by_hashtag.git
+   cd get_tweets_by_hashtag
    ```
 
 2. **Create a Virtual Environment** :
 
    ```bash
-   python -m venv venv
+   uv venv venv
    ```
 
 3. **Activate the Virtual Environment** :
@@ -66,7 +66,7 @@ Before running the script, ensure you have the following:
 4. **Install Dependencies** :
 
    ```bash
-   pip install tweepy pandas openpyxl python-dotenv
+   uv pip install tweepy pandas openpyxl python-dotenv
    ```
 
 5. **Set Up Environment Variables** :
