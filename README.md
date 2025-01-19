@@ -20,7 +20,6 @@ Before running the script, ensure you have the following:
 1. **Twitter Developer Account**:
 
    - Apply for a developer account at the [Twitter Developer Portal](https://developer.twitter.com/).
-
    - Create a project and app to obtain API credentials.
 
 2. **API Credentials**:
@@ -116,10 +115,10 @@ Before running the script, ensure you have the following:
 ## Error Handling
 
 - **Rate Limit Exceeded** :
-- If the rate limit is exceeded, the script will wait for 15 minutes and retry.
-- If no tweets are fetched due to an error, the script will exit without saving files.
+  - If the rate limit is exceeded, the script will wait for 15 minutes and retry.
+  - If no tweets are fetched due to an error, the script will exit without saving files.
 - **File Saving Errors** :
-- If an error occurs while saving files, the script will print an error message and exit.
+  - If an error occurs while saving files, the script will print an error message and exit.
 
 ---
 
@@ -127,7 +126,6 @@ Before running the script, ensure you have the following:
 
 ```bash
 twitter-hashtag-scraper/
-│
 ├── .env              # Environment variables (API keys, etc.)
 ├── main.py           # Main script to run the program
 ├── README.md         # Project documentation
